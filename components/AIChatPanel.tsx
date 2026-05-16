@@ -1,4 +1,4 @@
-git push -u origin main'use client';
+'use client';
 
 import { ReactNode, useMemo, useState } from 'react';
 import { Sparkles, Send, Info } from 'lucide-react';
