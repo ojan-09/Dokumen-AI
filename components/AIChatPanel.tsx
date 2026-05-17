@@ -95,7 +95,7 @@ export default function AIChatPanel() {
           <span className="text-sm font-semibold text-slate-800">AI Assistant</span>
         </div>
         <span className="rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-blue-700">
-          Claude
+          Gemini
         </span>
       </div>
 
@@ -121,7 +121,7 @@ export default function AIChatPanel() {
           >
             {message.role === 'assistant' && (
               <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-slate-400">
-                Claude
+                Gemini
               </p>
             )}
             <p className="whitespace-pre-line">{message.text}</p>
